@@ -1,10 +1,15 @@
-<html>
- <head>
- <meta charset="UTF-8">
- <title>Lista de productos</title>
- </head>
- <body>
- <h1>Lista de productos </h1>
- <p>Esta es la lista de productos</p>
- </body>
-</html>
+{% extends 'base.html.twig' %}
+
+{% block title %}Lista de productos{% endblock %}
+
+{% block body %}
+ <div class = "header">
+ <strong>Carrito de Compras</strong>
+ <div>
+    <button class = "btn-ligth">Ver orden</button>
+    <button class = "btn-ligth">Salir</button>
+</div>
+</div>
+<body><h1 class = "title">Lista de productos</h1></body>
+
+{% endblock %}
